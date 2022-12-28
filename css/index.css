@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+.content{
+    margin: 10px 0 50px 0;
+    text-align: center;
+}
+
+.artist{
+    font-size: large;
+}
+
+.containerAmostra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(40, 40, 40);
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px black;
+    background-color: wheat;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.348);
+    transition: .3s all ease-in-out;
+}
+
+.imgcard{
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px rgba(245, 245, 245, 0.257);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.clique{
+    margin-left: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    border: solid 2px gold;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    color: black;
+    transition: .5s all ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.clique:hover{
+    border: none;
+    background-color: gold;
+    color: white;
+}
+
+.container{
+    float: right;
+    width: auto;
+    margin: 20px 20px 0 0;
+}
+
+.cardplayer{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.348);
+    transition: .3s all ease-in-out;
+    
+}
+
+.imgleitor{
+    transition: 0.5s all;
+}
+
+.imgleitor:hover{
+    scale: 1.2;
+    margin-bottom: 10px;
+}
+
+.contentsobre{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    text-transform: uppercase;
+    text-indent: initial;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 10px;
+}
